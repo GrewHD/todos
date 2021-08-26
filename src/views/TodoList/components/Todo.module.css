@@ -1,0 +1,81 @@
+.todo {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     min-width: 350px;
+     min-height: 42px;
+     border: 1px solid #424242;
+     padding: 5px;
+     margin-top: 25px;
+     border-radius: 10px;
+     box-shadow: 1px 1px 1px #242222;
+     cursor: grab;
+}
+
+.todo:first-child {
+     margin-top: 10px;
+}
+
+.todoInfo {
+     display: flex;
+     align-items: center;
+}
+
+.description {
+     display: flex;
+     align-items: center;
+     margin-left: 10px;
+}
+
+.checkbox {
+     min-height: 16px;
+     min-width: 16px;
+     margin: 0 0 0 3px;
+}
+
+.done {
+     text-decoration: line-through;
+}
+
+.deleteButton {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     border: 0;
+     background: white;
+     /*background: #d83c3c;*/
+     /*border: #282c34 1px solid;*/
+     /*border-radius: 25px;*/
+     /*max-height: 23px;*/
+     /*max-width: 23px;*/
+     /*background: url("./img/delete.png") no-repeat;*/
+}
+
+.changeButton {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     border: 0;
+     background: white;
+}
+
+.submitButton {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     border: 0;
+     background: white;
+}
+
+.cancelButton {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+     border: 0;
+     background: white;
+}
+
+.buttonsBlock {
+     display: flex;
+}
+
